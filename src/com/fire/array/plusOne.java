@@ -7,13 +7,14 @@ import java.util.List;
 /**
  * @author jiefeng
  * @Copyright shanghai Definesys company.All right reserved
- * @Description ToDo
+ * @Description ToDo 2019/9/10 我觉得可以想一个办法来解决最后需要复制数组的问题
  * @date 2019/9/9 20:51
  * @histoty 2019/9/9 20:51 created by jiefeng
  */
 public class plusOne {
+//    每次将最后一个数字加一，然后除十进位，到最后一位，判断一下，如果需要进位了那么需要一个加一位的数组，然后将数据赋值过去，
+//    如果不需要那么就不做操作
     public int[] plusOne(int[] digits){
-//        List<Integer> res = new ArrayList<>(digits.length);
         int[] res = new int[digits.length];
         int sum = 0;
         int one = 1;
