@@ -25,11 +25,12 @@ public class ThreeSum {
             while (j < k) {
                 List<Integer> curr = new ArrayList<>();
                 if (nums[i] + nums[j] + nums[k] == 0) {
-                    curr.add(i);
-                    curr.add(j);
-                    curr.add(k);
+                    curr.add(nums[i]);
+                    curr.add(nums[j]);
+                    curr.add(nums[k]);
                     j++;
                     k--;
+//                    此处是指，如果当前值等于下一个的值那么直接跳过
                     while (j < k && nums[j - 1] == nums[j])
                         j++;
                     while (j < k && nums[k] == nums[k + 1])
@@ -39,6 +40,10 @@ public class ThreeSum {
                 } else {
                     k--;
                 }
+                if (curr.size()>0){
+                    ret.add(curr);
+                }
+
             }
             while (i < nums.length - 1 && nums[i] == nums[i + 1]) {
                 i++;
@@ -48,5 +53,7 @@ public class ThreeSum {
     }
 
     public static void main(String[] args) {
+        int[] a = new int[]{-1, 0, 1, 2, -1, -4};
+        System.out.println(new ThreeSum().ThreeSum(a).toString());
     }
 }

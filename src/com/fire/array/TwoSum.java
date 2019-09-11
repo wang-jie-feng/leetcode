@@ -10,20 +10,18 @@ import java.util.*;
  * @histoty 2019/9/10 21:50 created by jiefeng
  */
 public class TwoSum {
-    public List<Integer> twoSum(int[] numbers, int target){
+    public List<Integer> twoSum(int[] nums, int target){
         List<Integer> res = new ArrayList<>();
-        if (numbers.length <= 1){
+        if (nums.length <= 1){
             return res;
         }
-//        首先对于数组排序一下
-//        Arrays.sort(numbers);
         Map<Integer,Integer> myMap = new HashMap<>();
-        for (int i = 0; i < numbers.length; i++) {
-            myMap.put(numbers[i],i);
+        for (int i = 0; i < nums.length; i++) {
+            myMap.put(nums[i],i);
         }
 
-        for (int i = 0; i < numbers.length; i++) {
-            int restVal = target-numbers[i];
+        for (int i = 0; i < nums.length; i++) {
+            int restVal = target-nums[i];
             if (myMap.get(restVal) != null){
                 int index=myMap.get(restVal);
                 if (index == i)
@@ -44,9 +42,9 @@ public class TwoSum {
     }
 
     public static void main(String[] args) {
-        int[] numbers = new int[]{1,2,4,6};
+        int[] nums = new int[]{1,2,4,6};
         int target = 7;
-        List<Integer> integers = new TwoSum().twoSum(numbers, target);
+        List<Integer> integers = new TwoSum().twoSum(nums, target);
         System.out.println(integers.toString());
     }
 }
