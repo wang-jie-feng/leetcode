@@ -17,6 +17,7 @@ public class ThreeSum {
         if (nums.length <= 2){
             return ret;
         }
+//        由于要求输出是有序的，所以需要先排序
         Arrays.sort(nums);
 
         for (int i=0;i<nums.length-2;i++) {
@@ -30,7 +31,7 @@ public class ThreeSum {
                     curr.add(nums[k]);
                     j++;
                     k--;
-//                    此处是指，如果当前值等于下一个的值那么直接跳过
+//                    此处是指，如果当前值等于下一个的值那么直接跳过，可以用于去重
                     while (j < k && nums[j - 1] == nums[j])
                         j++;
                     while (j < k && nums[k] == nums[k + 1])
