@@ -25,4 +25,9 @@ public class SearchA2DMatrix {
         }
         return false;
     }
+
+    public static void main(String[] args) {
+
+        System.out.println(new SearchA2DMatrix().searchMatrix(new int[1][2], 3));
+    }
 }
