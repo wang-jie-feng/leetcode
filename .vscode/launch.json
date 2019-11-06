@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MissingNumber",
+            "request": "launch",
+            "mainClass": "com.fire.bitManipulation.MissingNumber"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Demo",
+            "request": "launch",
+            "mainClass": "com.fire.array.Demo"
+        }
+    ]
+}
