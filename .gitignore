@@ -25,3 +25,4 @@ hs_err_pid*
 #编辑忽略idea配置文件
 *.iml
 /.idea
+.vscode/
