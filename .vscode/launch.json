@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MergeIntervals",
+            "request": "launch",
+            "mainClass": "com.fire.array.MergeIntervals",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - plusOne",
+            "request": "launch",
+            "mainClass": "com.fire.array.plusOne",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MissingNumber",
             "request": "launch",
             "mainClass": "com.fire.bitManipulation.MissingNumber"
