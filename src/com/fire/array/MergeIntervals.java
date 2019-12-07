@@ -21,7 +21,7 @@ public class MergeIntervals {
 
         List<int[]> list = new ArrayList<>();
 
-
+//        使用lambda表达式
         Arrays.sort(intervals,(e1,e2) -> {return e1[0] - e2[0];});
 
         int i=0;
