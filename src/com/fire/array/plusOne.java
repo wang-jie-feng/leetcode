@@ -1,8 +1,12 @@
+/*
+ * @Copyright: Shanghai Definesys Company.All rights reserved.
+ * @Descripttion: 
+ * @Author: jiefeng
+ * @Date: 2019-09-09 20:51:41
+ * @LastEditors: jiefeng
+ * @LastEditTime: 2019-12-08 13:02:15
+ */
 package com.fire.array;
-
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 
 /**
  * @author jiefeng
@@ -36,7 +40,7 @@ public class plusOne {
     }
 
     public static void main(String[] args) {
-        int[] x = new int[]{9,9,9};
+        int[] x = new int[]{9,9,9,10,11};
         for (int i = 0; i < new plusOne().plusOne(x).length; i++) {
             System.out.println(new plusOne().plusOne(x)[i]);
         }

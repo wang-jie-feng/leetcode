@@ -1,3 +1,11 @@
+/*
+ * @Copyright: Shanghai Definesys Company.All rights reserved.
+ * @Descripttion: 
+ * @Author: jiefeng
+ * @Date: 2019-09-24 14:53:25
+ * @LastEditors: jiefeng
+ * @LastEditTime: 2019-12-08 13:46:30
+ */
 package com.fire.array;
 
 /**
