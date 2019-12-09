@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SuperEggDrop",
+            "request": "launch",
+            "mainClass": "com.fire.array.SuperEggDrop",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Merge",
+            "request": "launch",
+            "mainClass": "com.fire.array.Merge",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MajorityElement",
+            "request": "launch",
+            "mainClass": "com.fire.array.MajorityElement",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OnlyOne",
+            "request": "launch",
+            "mainClass": "com.fire.array.OnlyOne",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - fourSum",
             "request": "launch",
             "mainClass": "com.fire.array.fourSum",
