@@ -1,3 +1,11 @@
+/*
+ * @Copyright: Shanghai Definesys Company.All rights reserved.
+ * @Descripttion: 
+ * @Author: jiefeng
+ * @Date: 2019-09-10 21:50:17
+ * @LastEditors: jiefeng
+ * @LastEditTime: 2019-12-10 18:01:19
+ */
 package com.fire.array;
 
 import java.util.*;
@@ -10,8 +18,8 @@ import java.util.*;
  * @histoty 2019/9/10 21:50 created by jiefeng
  */
 public class TwoSum {
-    public List<Integer> twoSum(int[] nums, int target){
-        List<Integer> res = new ArrayList<>();
+    public int[] twoSum(int[] nums, int target){
+        int[] res = new int[2];
         if (nums.length <= 1){
             return res;
         }
@@ -27,12 +35,12 @@ public class TwoSum {
                 if (index == i)
                     continue;
                 if (index < i){
-                    res.add(index+1);
-                    res.add(i+1);
+                    res[0] = (index);
+                    res[1] = (i);
                     return res;
                 }else {
-                    res.add(i+1);
-                    res.add(index+1);
+                    res[0] = (i);
+                    res[1] = (index);
                     return res;
                 }
             }

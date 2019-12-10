@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MoveZeroes",
+            "request": "launch",
+            "mainClass": "com.fire.array.MoveZeroes",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Rotate",
             "request": "launch",
             "mainClass": "com.fire.array.Rotate",
