@@ -4,7 +4,7 @@
  * @Author: jiefeng
  * @Date: 2019-09-10 21:50:17
  * @LastEditors: jiefeng
- * @LastEditTime: 2019-12-10 18:01:19
+ * @LastEditTime: 2019-12-11 09:50:14
  */
 package com.fire.array;
 
@@ -16,6 +16,8 @@ import java.util.*;
  * @Description ToDo
  * @date 2019/9/10 21:50
  * @histoty 2019/9/10 21:50 created by jiefeng
+ * 首先，利用HashMap的特性，将数组的值当作key，数量当作value
+ * 之后和另一个数组的值比较，即可比较出是否有符合条件的值了
  */
 public class TwoSum {
     public int[] twoSum(int[] nums, int target){
@@ -52,7 +54,9 @@ public class TwoSum {
     public static void main(String[] args) {
         int[] nums = new int[]{1,2,4,6};
         int target = 7;
-        List<Integer> integers = new TwoSum().twoSum(nums, target);
-        System.out.println(integers.toString());
+        int[] res = new TwoSum().twoSum(nums, target);
+        for (int i = 0; i < res.length; i++) {
+            System.out.println(res[i]);
+        }
     }
 }
