@@ -4,7 +4,7 @@
  * @Author: jiefeng
  * @Date: 2019-12-09 14:20:01
  * @LastEditors: jiefeng
- * @LastEditTime: 2019-12-09 14:32:59
+ * @LastEditTime: 2019-12-11 10:42:02
  */
 package com.fire.array;
 
@@ -12,7 +12,7 @@ import java.util.Arrays;
 
 /**
  * OnlyOne
- * 此处使用了疑惑运算，相同为0，不同为一
+ * 此处使用了异或运算，相同为0，不同为一
  * 所以如果一个数两次和同一个数异或运算，那么得到的是之前的数
  */
 public class OnlyOne {
