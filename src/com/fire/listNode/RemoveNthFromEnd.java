@@ -4,7 +4,7 @@
  * @Author: jiefeng
  * @Date: 2019-12-13 09:45:17
  * @LastEditors: jiefeng
- * @LastEditTime: 2019-12-13 10:02:52
+ * @LastEditTime: 2019-12-13 10:09:22
  */
 package com.fire.listNode;
 
@@ -40,6 +40,23 @@ public class RemoveNthFromEnd {
             first = first.next;
         }
         first.next = first.next.next;
+        return dummy.next;
+    }
+
+    public ListNode removeNthFromEnd2(ListNode head, int n){
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode first = dummy;
+        ListNode second  = dummy;
+        for (int i = 0; i < n+1; i++) {
+            first = first.next;
+        }
+        // 两者一起遍历
+        while(first != null){
+            first = first.next;
+            second = second.next;
+        }
+        second.next = second.next.next;
         return dummy.next;
     }
 }
