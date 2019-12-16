@@ -4,7 +4,7 @@
  * @Author: jiefeng
  * @Date: 2019-12-12 16:09:38
  * @LastEditors: jiefeng
- * @LastEditTime: 2019-12-12 16:27:10
+ * @LastEditTime: 2019-12-16 18:03:16
  */
 package com.fire.string;
 
@@ -47,6 +47,5 @@ public class IsAnagram {
     }
 
     public static void main(String[] args) {
-        System.out.println(new IsAnagram().isAnagram(s, t));
     }
 }

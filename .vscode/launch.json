@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Find",
+            "request": "launch",
+            "mainClass": "com.fire.array.Find",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SequentialDigits",
+            "request": "launch",
+            "mainClass": "com.fire.List.SequentialDigits",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GgetDecimalValue",
+            "request": "launch",
+            "mainClass": "com.fire.listNode.GgetDecimalValue",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IsAnagram",
             "request": "launch",
             "mainClass": "com.fire.string.IsAnagram",
