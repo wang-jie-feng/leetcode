@@ -4,7 +4,7 @@
  * @Author: jiefeng
  * @Date: 2019-12-12 10:58:17
  * @LastEditors: jiefeng
- * @LastEditTime: 2019-12-12 11:34:31
+ * @LastEditTime: 2019-12-17 17:57:13
  */
 package com.fire.string;
 
@@ -33,7 +33,7 @@ public class StrStr {
 
     public static void main(String[] args) {
         String haystack  = "aa";
-        String needle  = "aaa";
+        String needle  = "a";
         System.out.println(new StrStr().strStr(haystack, needle));;
     }
 }

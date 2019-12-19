@@ -4,7 +4,7 @@
  * @Author: jiefeng
  * @Date: 2019-12-16 17:40:46
  * @LastEditors: jiefeng
- * @LastEditTime: 2019-12-16 18:18:13
+ * @LastEditTime: 2019-12-16 18:42:15
  */
 package com.fire.array;
 
@@ -34,6 +34,6 @@ public class Find {
     public static void main(String[] args) {
         int [][] matrix = {{1,   4,  7, 11, 15},{2,   5,  8, 12, 19},{3,   6,  9, 16, 22},{10, 13, 14, 17, 24},{18, 21, 23, 26, 30}};
         int target = 20;
-        System.out.println(new Find().Find(target, matrix));
+        System.out.println(new Find().find(target, matrix));
     }
 }
