@@ -3,8 +3,8 @@
  * @Descripttion: 
  * @Author: jiefeng
  * @Date: 2019-09-24 14:53:25
- * @LastEditors: jiefeng
- * @LastEditTime: 2019-12-10 11:42:17
+ * @LastEditors  : jiefeng
+ * @LastEditTime : 2019-12-22 19:45:57
  */
 package com.fire.array;
 
@@ -25,9 +25,6 @@ public class Demo {
         // 设置转换的日期格式
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
-        // 开始时间
-        Date startDate = sdf.parse("2016-01-01");
-        // 结束时间
         Date endDate = sdf.parse("2015-01-01");
         Date a = sdf.parse("2015-01-02");
 
