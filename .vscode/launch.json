@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IsPowerOfThree",
+            "request": "launch",
+            "mainClass": "com.fire.num.IsPowerOfThree",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FizzBuzz",
+            "request": "launch",
+            "mainClass": "com.fire.num.FizzBuzz",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinStack",
+            "request": "launch",
+            "mainClass": "com.fire.design.MinStack",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PrintListFromTailToHead",
             "request": "launch",
             "mainClass": "com.fire.listNode.PrintListFromTailToHead",
