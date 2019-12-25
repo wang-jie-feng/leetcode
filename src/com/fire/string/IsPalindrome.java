@@ -3,18 +3,39 @@
  * @Descripttion: 
  * @Author: jiefeng
  * @Date: 2019-12-11 11:19:12
- * @LastEditors: jiefeng
- * @LastEditTime: 2019-12-11 11:21:07
+ * @LastEditors  : jiefeng
+ * @LastEditTime : 2019-12-25 15:38:59
  */
 package com.fire.string;
 
 /**
- * IsPalindrome
- * 忽略大小写
+ * IsPalindrome 忽略大小写
  */
 public class IsPalindrome {
-    public boolean isPalindrome(String s) {
-        // 处理字符串，只保留字母和数字字符
-        return true;
+    public boolean isPalindrome(int x) {
+        // 特殊情况：
+        // 如上所述，当 x < 0 时，x 不是回文数。
+        // 同样地，如果数字的最后一位是 0，为了使该数字为回文，
+        // 则其第一位数字也应该是 0
+        // 只有 0 满足这一属性
+        if (x < 0 || (x % 10 == 0 && x != 0)) {
+            return false;
+        }
+
+        int revertedNumber = 0;
+        while (x > revertedNumber) {
+            // 一步一步获取两者的一半
+            revertedNumber = revertedNumber * 10 + x % 10;
+            x /= 10;
+        }
+
+        // 当数字长度为奇数时，我们可以通过 revertedNumber/10 去除处于中位的数字。
+        // 例如，当输入为 12321 时，在 while 循环的末尾我们可以得到 x = 12，revertedNumber = 123，
+        // 由于处于中位的数字不影响回文（它总是与自己相等），所以我们可以简单地将其去除。
+        return x == revertedNumber || x == revertedNumber / 10;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new IsPalindrome().isPalindrome(101));
     }
 }

@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IsPalindrome",
+            "request": "launch",
+            "mainClass": "com.fire.string.IsPalindrome",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LengthOfLongestSubstring",
+            "request": "launch",
+            "mainClass": "com.fire.string.LengthOfLongestSubstring",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IsPowerOfThree",
             "request": "launch",
             "mainClass": "com.fire.num.IsPowerOfThree",
