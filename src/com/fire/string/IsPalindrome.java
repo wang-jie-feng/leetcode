@@ -4,7 +4,7 @@
  * @Author: jiefeng
  * @Date: 2019-12-11 11:19:12
  * @LastEditors  : jiefeng
- * @LastEditTime : 2019-12-25 15:38:59
+ * @LastEditTime : 2019-12-25 16:03:37
  */
 package com.fire.string;
 
@@ -36,6 +36,6 @@ public class IsPalindrome {
     }
 
     public static void main(String[] args) {
-        System.out.println(new IsPalindrome().isPalindrome(101));
+        System.out.println(new IsPalindrome().isPalindrome(90089));
     }
 }
