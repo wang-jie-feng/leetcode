@@ -4,7 +4,7 @@
  * @Author: jiefeng
  * @Date: 2019-12-24 15:35:14
  * @LastEditors  : jiefeng
- * @LastEditTime : 2019-12-24 15:36:04
+ * @LastEditTime : 2019-12-25 10:48:55
  */
 package com.fire.num;
 
@@ -18,6 +18,6 @@ public class IsPowerOfThree {
     }
 
     public static void main(String[] args) {
-        System.out.println(new IsPowerOfThree().isPowerOfThree(9));
+        System.out.println(new IsPowerOfThree().isPowerOfThree(1000000));
     }
 }
