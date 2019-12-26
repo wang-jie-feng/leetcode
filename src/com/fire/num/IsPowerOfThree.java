@@ -4,7 +4,7 @@
  * @Author: jiefeng
  * @Date: 2019-12-24 15:35:14
  * @LastEditors  : jiefeng
- * @LastEditTime : 2019-12-25 10:48:55
+ * @LastEditTime : 2019-12-26 09:42:16
  */
 package com.fire.num;
 
@@ -14,6 +14,7 @@ package com.fire.num;
 public class IsPowerOfThree {
 
     public boolean isPowerOfThree(int n) {
+        // 使用数学公式来改变
         return (Math.log10(n) / Math.log10(3)) % 1 == 0;   
     }
 
