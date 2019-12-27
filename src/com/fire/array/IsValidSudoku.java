@@ -3,24 +3,23 @@
  * @Descripttion: 
  * @Author: jiefeng
  * @Date: 2019-12-10 18:04:13
- * @LastEditors: jiefeng
- * @LastEditTime: 2019-12-10 18:43:56
+ * @LastEditors  : jiefeng
+ * @LastEditTime : 2019-12-27 10:41:43
  */
 package com.fire.array;
 
 import java.util.HashMap;
-import java.util.Map;
 
 /**
  * IsValidSudoku
  */
 public class IsValidSudoku {
 
-    public boolean isValidSudoku(char[][] board) {
+    public boolean isValidSudoku(final char[][] board) {
         // init data
-        HashMap<Integer, Integer> [] rows = new HashMap[9];
-        HashMap<Integer, Integer> [] columns = new HashMap[9];
-        HashMap<Integer, Integer> [] boxes = new HashMap[9];
+        final HashMap<Integer, Integer> [] rows = new HashMap[9];
+        final HashMap<Integer, Integer> [] columns = new HashMap[9];
+        final HashMap<Integer, Integer> [] boxes = new HashMap[9];
         for (int i = 0; i < 9; i++) {
           rows[i] = new HashMap<Integer, Integer>();
           columns[i] = new HashMap<Integer, Integer>();
@@ -30,10 +29,10 @@ public class IsValidSudoku {
         // validate a board
         for (int i = 0; i < 9; i++) {
           for (int j = 0; j < 9; j++) {
-            char num = board[i][j];
+            final char num = board[i][j];
             if (num != '.') {
-              int n = (int)num;
-              int box_index = (i / 3 ) * 3 + j / 3;
+              final int n = (int)num;
+              final int box_index = (i / 3 ) * 3 + j / 3;
     
               // keep the current cell value
               rows[i].put(n, rows[i].getOrDefault(n, 0) + 1);

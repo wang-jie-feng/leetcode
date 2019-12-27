@@ -3,13 +3,11 @@
  * @Descripttion: 
  * @Author: jiefeng
  * @Date: 2019-12-13 10:15:31
- * @LastEditors: jiefeng
- * @LastEditTime: 2019-12-13 10:32:30
+ * @LastEditors  : jiefeng
+ * @LastEditTime : 2019-12-26 10:29:51
  */
 package com.fire.listNode;
 
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * ReverseList

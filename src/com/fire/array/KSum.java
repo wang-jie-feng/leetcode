@@ -2,7 +2,6 @@ package com.fire.array;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.TooManyListenersException;
 
 /**
  * @author jiefeng

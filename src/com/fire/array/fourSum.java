@@ -1,3 +1,11 @@
+/*
+ * @Copyright: Shanghai Definesys Company.All rights reserved.
+ * @Descripttion: 
+ * @Author: jiefeng
+ * @Date: 2019-09-11 21:28:05
+ * @LastEditors: jiefeng
+ * @LastEditTime: 2019-12-27 10:40:30
+ */
 package com.fire.array;
 
 import java.util.ArrayList;
@@ -11,7 +19,7 @@ import java.util.List;
  * @date 2019/9/11 21:28
  * @histoty 2019/9/11 21:28 created by jiefeng
  */
-public class fourSum {
+public class FourSum {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> ret = new ArrayList<>();
         if (nums.length <= 3){

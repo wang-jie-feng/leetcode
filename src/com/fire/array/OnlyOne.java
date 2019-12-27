@@ -3,12 +3,11 @@
  * @Descripttion: 
  * @Author: jiefeng
  * @Date: 2019-12-09 14:20:01
- * @LastEditors: jiefeng
- * @LastEditTime: 2019-12-11 10:42:02
+ * @LastEditors  : jiefeng
+ * @LastEditTime : 2019-12-27 10:41:52
  */
 package com.fire.array;
 
-import java.util.Arrays;
 
 /**
  * OnlyOne
@@ -25,7 +24,6 @@ public class OnlyOne {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1,1,3,4,4,0,0};
         // System.out.println(new OnlyOne().singleNumber(arr));
         System.out.println(7^6);
     }
