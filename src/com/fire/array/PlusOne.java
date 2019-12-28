@@ -41,8 +41,8 @@ public class PlusOne {
 
     public static void main(final String[] args) {
         final int[] x = new int[] { 9, 9, 9, 10, 11 };
-        for (int i = 0; i < new plusOne().plusOne(x).length; i++) {
-            System.out.println(new plusOne().plusOne(x)[i]);
+        for (int i = 0; i < new PlusOne().plusOne(x).length; i++) {
+            System.out.println(new PlusOne().plusOne(x)[i]);
         }
     }
 }

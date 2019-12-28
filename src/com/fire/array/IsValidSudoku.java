@@ -8,6 +8,7 @@
  */
 package com.fire.array;
 
+import java.util.Map;
 import java.util.HashMap;
 
 /**
@@ -17,9 +18,9 @@ public class IsValidSudoku {
 
     public boolean isValidSudoku(final char[][] board) {
         // init data
-        final HashMap<Integer, Integer> [] rows = new HashMap[9];
-        final HashMap<Integer, Integer> [] columns = new HashMap[9];
-        final HashMap<Integer, Integer> [] boxes = new HashMap[9];
+        Map<Integer, Integer> [] rows = new HashMap[9];
+        Map<Integer, Integer> [] columns = new HashMap[9];
+        Map<Integer, Integer> [] boxes = new HashMap[9];
         for (int i = 0; i < 9; i++) {
           rows[i] = new HashMap<Integer, Integer>();
           columns[i] = new HashMap<Integer, Integer>();

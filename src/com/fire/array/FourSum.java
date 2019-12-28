@@ -68,7 +68,7 @@ public class FourSum {
     public static void main(String[] args) {
         int[] nums = new int[]{-3,-2,-1,0,0,1,2,3};
         int target = 0;
-        System.out.println(new fourSum().fourSum(nums, target));
+        System.out.println(new FourSum().fourSum(nums, target));
         System.out.println();
     }
 }
