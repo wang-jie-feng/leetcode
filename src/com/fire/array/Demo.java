@@ -35,8 +35,11 @@ public class Demo {
         // 得到相差的天数 betweenDate
         long betweenDate = (a.getTime() - endDate.getTime()) / (60 * 60 * 24 * 1000);
 
+
         // 打印控制台相差的天数
         System.out.println(betweenDate);
+        System.out.println(cal.getTime());
+        // 如果未保存，那么远程主机是不知道已经更改了
         System.out.println(cal.getTime());
     }
 }
