@@ -1,7 +1,12 @@
 {
     "configurations": [
-        
-
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FourSum",
+            "request": "launch",
+            "mainClass": "com.fire.array.FourSum",
+            "projectName": "leetcode_5a100bbd"
+        },
         {
             "type": "java",
             "name": "CodeLens (Launch) - IsPalindrome",
