@@ -25,7 +25,7 @@ public class Demo {
         // 设置转换的日期格式
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 
-        Date endDate = sdf.parse("2015-01-01");
+        Date endDate = sdf.parse ("2015-01-01");
         Date a = sdf.parse("2015-01-02");
 
         Calendar cal = Calendar.getInstance();

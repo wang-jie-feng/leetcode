@@ -1,7 +1,12 @@
 {
     "configurations": [
-        
-
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Nio",
+            "request": "launch",
+            "mainClass": "com.fire.nio.Nio",
+            "projectName": "leetcode_a3f7e065"
+        },
         {
             "type": "java",
             "name": "CodeLens (Launch) - IsPalindrome",

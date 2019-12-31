@@ -8,10 +8,12 @@
  */
 package com.fire.nio;
 
-import java.io.FileInputStream;
 
 /**
  * Nio
  */
 public class Nio {
+    public static void main(String[] args) {
+        System.out.println("nio");
+    }
 }
