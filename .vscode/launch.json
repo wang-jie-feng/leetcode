@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "configurations": [
         {
@@ -244,4 +245,224 @@
             "mainClass": "com.fire.array.Demo"
         }
     ]
+=======
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FourSum",
+            "request": "launch",
+            "mainClass": "com.fire.array.FourSum",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IsPalindrome",
+            "request": "launch",
+            "mainClass": "com.fire.string.IsPalindrome",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LengthOfLongestSubstring",
+            "request": "launch",
+            "mainClass": "com.fire.string.LengthOfLongestSubstring",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IsPowerOfThree",
+            "request": "launch",
+            "mainClass": "com.fire.num.IsPowerOfThree",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FizzBuzz",
+            "request": "launch",
+            "mainClass": "com.fire.num.FizzBuzz",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MinStack",
+            "request": "launch",
+            "mainClass": "com.fire.design.MinStack",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PrintListFromTailToHead",
+            "request": "launch",
+            "mainClass": "com.fire.listNode.PrintListFromTailToHead",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReplaceSpace",
+            "request": "launch",
+            "mainClass": "com.fire.string.ReplaceSpace",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Find",
+            "request": "launch",
+            "mainClass": "com.fire.array.Find",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SequentialDigits",
+            "request": "launch",
+            "mainClass": "com.fire.List.SequentialDigits",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GgetDecimalValue",
+            "request": "launch",
+            "mainClass": "com.fire.listNode.GgetDecimalValue",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - IsAnagram",
+            "request": "launch",
+            "mainClass": "com.fire.string.IsAnagram",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Reverse",
+            "request": "launch",
+            "mainClass": "com.fire.string.Reverse",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StrStr",
+            "request": "launch",
+            "mainClass": "com.fire.string.StrStr",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FirstUniqChar",
+            "request": "launch",
+            "mainClass": "com.fire.string.FirstUniqChar",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ReverseString",
+            "request": "launch",
+            "mainClass": "com.fire.string.ReverseString",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MaxProfit",
+            "request": "launch",
+            "mainClass": "com.fire.array.MaxProfit",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TwoSum",
+            "request": "launch",
+            "mainClass": "com.fire.array.TwoSum",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ThreeSumClosest",
+            "request": "launch",
+            "mainClass": "com.fire.array.ThreeSumClosest",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MoveZeroes",
+            "request": "launch",
+            "mainClass": "com.fire.array.MoveZeroes",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Rotate",
+            "request": "launch",
+            "mainClass": "com.fire.array.Rotate",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Duplicate",
+            "request": "launch",
+            "mainClass": "com.fire.array.Duplicate",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SuperEggDrop",
+            "request": "launch",
+            "mainClass": "com.fire.array.SuperEggDrop",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Merge",
+            "request": "launch",
+            "mainClass": "com.fire.array.Merge",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MajorityElement",
+            "request": "launch",
+            "mainClass": "com.fire.array.MajorityElement",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - OnlyOne",
+            "request": "launch",
+            "mainClass": "com.fire.array.OnlyOne",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - fourSum",
+            "request": "launch",
+            "mainClass": "com.fire.array.fourSum",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergeIntervals",
+            "request": "launch",
+            "mainClass": "com.fire.array.MergeIntervals",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - plusOne",
+            "request": "launch",
+            "mainClass": "com.fire.array.plusOne",
+            "projectName": "leetcode_5a100bbd"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MissingNumber",
+            "request": "launch",
+            "mainClass": "com.fire.bitManipulation.MissingNumber"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Demo",
+            "request": "launch",
+            "mainClass": "com.fire.array.Demo"
+        }
+    ]
+>>>>>>> cadefea1eb5a64aa148fcc5f2af4eb8431669736
 }
