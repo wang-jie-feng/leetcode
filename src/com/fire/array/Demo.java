@@ -1,13 +1,11 @@
 /*
- * @Copyright: Shanghai Definesys Company.All rights reserved.
  * @Descripttion: 
  * @Author: jiefeng
  * @Date: 2019-09-24 14:53:25
  * @LastEditors  : jiefeng
- * @LastEditTime : 2019-12-23 10:24:45
+ * @LastEditTime : 2019-12-31 11:26:20
  */
 package com.fire.array;
-
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

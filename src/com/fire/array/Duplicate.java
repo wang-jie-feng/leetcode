@@ -1,15 +1,18 @@
 /*
- * @Copyright: Shanghai Definesys Company.All rights reserved.
  * @Descripttion: 
- * @Author: jiefeng
+ * @Author: 
  * @Date: 2019-12-09 17:21:11
- * @LastEditors: jiefeng
- * @LastEditTime: 2019-12-09 18:35:56
+ * @LastEditors  : jiefeng
+ * @LastEditTime : 2020-01-08 11:14:06
  */
 package com.fire.array;
 
+
 /**
  * Duplicate
+ * 在一个长度为 n 的数组里的所有数字都在 0 到 n-1 的范围内。
+ * 数组中某些数字是重复的，但不知道有几个数字是重复的，也不知道每个数字重复几次。
+ * 请找出数组中任意一个重复的数字。
  * 首先将每一个位置上的归位，如果遇到相等那么返回true
  */
 public class Duplicate {

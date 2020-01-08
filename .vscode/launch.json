@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - LargestRectangleInHistogram",
+            "request": "launch",
+            "mainClass": "com.fire.array.LargestRectangleInHistogram",
+            "projectName": "leetcode_a3f7e065"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FourSum",
+            "request": "launch",
+            "mainClass": "com.fire.array.FourSum",
+            "projectName": "leetcode_a3f7e065"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Find",
+            "request": "launch",
+            "mainClass": "com.fire.array.Find",
+            "projectName": "leetcode_a3f7e065"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Duplicate",
+            "request": "launch",
+            "mainClass": "com.fire.array.Duplicate",
+            "projectName": "leetcode_a3f7e065"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Nio",
             "request": "launch",
             "mainClass": "com.fire.nio.Nio",

@@ -1,10 +1,9 @@
 /*
- * @Copyright: Shanghai Definesys Company.All rights reserved.
  * @Descripttion: 
  * @Author: jiefeng
  * @Date: 2019-12-10 16:54:41
- * @LastEditors: jiefeng
- * @LastEditTime: 2019-12-10 17:09:37
+ * @LastEditors  : jiefeng
+ * @LastEditTime : 2020-01-08 10:54:17
  */
 package com.fire.array;
 
@@ -13,6 +12,7 @@ import java.util.TreeMap;
 
 /**
  * ContainsDuplicate
+ * 获得第二个数组里没有出现在第一个数组里的数
  */
 public class ContainsDuplicate {
     public int[] intersect(int[] nums1, int[] nums2) {

@@ -1,11 +1,11 @@
 /*
- * @Copyright: Shanghai Definesys Company.All rights reserved.
  * @Descripttion: 
- * @Author: jiefeng
- * @Date: 2019-12-08 19:13:59
+ * @Author: jiefeng.w@foxmail.com
+ * @Date: 2020-01-08 11:34:51
  * @LastEditors: jiefeng
- * @LastEditTime: 2019-12-09 14:15:02
+ * @LastEditTime: 2020-01-08 11:34:51
  */
+
 package com.fire.array;
 
 import java.util.ArrayList;
