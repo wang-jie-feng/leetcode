@@ -1,3 +1,10 @@
+/*
+ * @Descripttion: 
+ * @Author: jiefeng.w@foxmail.com
+ * @Date: 2020-01-09 14:47:38
+ * @LastEditors  : jiefeng
+ * @LastEditTime : 2020-01-09 14:47:44
+ */
 package com.fire.array;
 
 import java.util.ArrayList;
@@ -12,7 +19,7 @@ import java.util.List;
  * @histoty 2019/9/10 23:18 created by jiefeng
  */
 public class ThreeSum {
-    public List<List<Integer>> ThreeSum (int[] nums){
+    public List<List<Integer>> threeSum (int[] nums){
         List<List<Integer>> ret = new ArrayList<>();
         if (nums.length <= 2){
             return ret;
@@ -55,6 +62,6 @@ public class ThreeSum {
 
     public static void main(String[] args) {
         int[] a = new int[]{-1, 0, 1, 2, -1, -4};
-        System.out.println(new ThreeSum().ThreeSum(a).toString());
+        System.out.println(new ThreeSum().threeSum(a).toString());
     }
 }
