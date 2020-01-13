@@ -3,7 +3,7 @@
  * @Author: jiefeng.w@foxmail.com
  * @Date: 2020-01-13 12:08:04
  * @LastEditors  : jiefeng
- * @LastEditTime : 2020-01-13 12:28:04
+ * @LastEditTime : 2020-01-13 14:34:07
  */
 package com.fire.thread;
 
@@ -45,5 +45,30 @@ public class Test {
         thread2.start();
         thread1.start();
         thread3.start();
+
+        // 使foobar被输出n次
+        FooBar fooBar = new FooBar(10);
+        Thread thread4 = new Thread(() -> {
+            try {
+                fooBar.foo(() -> {
+                    System.out.print("foo");
+                });
+            } catch (InterruptedException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        });
+        Thread thread5 = new Thread(() -> {
+            try {
+                fooBar.bar(() -> {
+                    System.out.println("bar");
+                });
+            } catch (InterruptedException e) {
+                // TODO Auto-generated catch block
+                e.printStackTrace();
+            }
+        });
+        thread4.start();
+        thread5.start();
     }
 }
