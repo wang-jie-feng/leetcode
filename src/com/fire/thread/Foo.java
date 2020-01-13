@@ -3,7 +3,7 @@
  * @Author: jiefeng.w@foxmail.com
  * @Date: 2020-01-13 12:05:29
  * @LastEditors  : jiefeng
- * @LastEditTime : 2020-01-13 12:14:21
+ * @LastEditTime : 2020-01-13 14:08:07
  */
 package com.fire.thread;
 
@@ -20,8 +20,8 @@ public class Foo {
     public void first(Runnable printFirst) throws InterruptedException {
         
         synchronized (lock) {
-            // printFirst.run() outputs "first". Do not change or remove this line.
             printFirst.run();
+            // 当第一次执行完成之后，改变标记的状态，使第二个方法可以运行
             firstFinished = true;
             lock.notifyAll(); 
         }
@@ -31,10 +31,11 @@ public class Foo {
         
         synchronized (lock) {
             while (!firstFinished) {
+                // 如果第一个还没有运行过，那么释放锁，重新竞争
                 lock.wait();
             }
         
-            // printSecond.run() outputs "second". Do not change or remove this line.
+            // 如果第一个已经运行过，那么可以继续运行
             printSecond.run();
             secondFinished = true;
             lock.notifyAll();
