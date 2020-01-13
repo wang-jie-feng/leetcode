@@ -3,7 +3,7 @@
  * @Author: jiefeng.w@foxmail.com
  * @Date: 2020-01-13 12:08:04
  * @LastEditors  : jiefeng
- * @LastEditTime : 2020-01-13 14:34:07
+ * @LastEditTime : 2020-01-13 15:45:02
  */
 package com.fire.thread;
 
@@ -70,5 +70,38 @@ public class Test {
         });
         thread4.start();
         thread5.start();
+
+        // ZeroEvenOdd
+        ZeroEvenOdd zeroEvenOdd = new ZeroEvenOdd(1000);
+        Thread thread6 = new Thread(() -> {
+            try {
+                zeroEvenOdd.zero(x -> {
+                    System.out.println(x);
+                });
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+        Thread thread7 = new Thread(() -> {
+            try {
+                zeroEvenOdd.even(x -> {
+                    System.out.println(x);
+                });
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+        Thread thread8 = new Thread(() -> {
+            try {
+                zeroEvenOdd.odd(x -> {
+                    System.out.println(x);
+                });
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+        thread6.start();
+        thread8.start();
+        thread7.start();
     }
 }
