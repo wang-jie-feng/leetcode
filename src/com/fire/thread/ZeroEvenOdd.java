@@ -3,7 +3,7 @@
  * @Author: jiefeng.w@foxmail.com
  * @Date: 2020-01-13 15:03:01
  * @LastEditors  : jiefeng
- * @LastEditTime : 2020-01-13 15:44:13
+ * @LastEditTime : 2020-01-13 15:56:29
  */
 package com.fire.thread;
 
@@ -33,8 +33,10 @@ public class ZeroEvenOdd {
             printNumber.accept(0);
             // 判断下一个应该是输出偶数还是奇数
             if((i&1)==0) {
+                // 给奇数增加一个信号量
         		o.release();
         	}else {
+                // 给偶数增加一个信号量
         		e.release();
         	}
         }
@@ -42,6 +44,7 @@ public class ZeroEvenOdd {
 
     public void even(IntConsumer printNumber) throws InterruptedException {
         for(int i=2; i<=n; i+=2) {
+            // 将自身信号量移除
         	e.acquire();
         	printNumber.accept(i);
         	z.release();

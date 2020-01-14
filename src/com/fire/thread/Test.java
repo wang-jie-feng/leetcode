@@ -3,7 +3,7 @@
  * @Author: jiefeng.w@foxmail.com
  * @Date: 2020-01-13 12:08:04
  * @LastEditors  : jiefeng
- * @LastEditTime : 2020-01-13 15:45:02
+ * @LastEditTime : 2020-01-13 16:16:16
  */
 package com.fire.thread;
 
@@ -72,7 +72,7 @@ public class Test {
         thread5.start();
 
         // ZeroEvenOdd
-        ZeroEvenOdd zeroEvenOdd = new ZeroEvenOdd(1000);
+        ZeroEvenOdd2 zeroEvenOdd = new ZeroEvenOdd2(1000);
         Thread thread6 = new Thread(() -> {
             try {
                 zeroEvenOdd.zero(x -> {
@@ -101,7 +101,7 @@ public class Test {
             }
         });
         thread6.start();
-        thread8.start();
         thread7.start();
+        thread8.start();
     }
 }
