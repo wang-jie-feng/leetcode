@@ -3,7 +3,7 @@
  * @Author: jiefeng.w@foxmail.com
  * @Date: 2020-01-09 14:47:38
  * @LastEditors  : jiefeng
- * @LastEditTime : 2020-01-09 14:47:44
+ * @LastEditTime : 2020-01-29 15:27:46
  */
 package com.fire.array;
 
@@ -11,13 +11,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * @author jiefeng
- * @Copyright shanghai Definesys company.All right reserved
- * @Description ToDo
- * @date 2019/9/10 23:18
- * @histoty 2019/9/10 23:18 created by jiefeng
- */
 public class ThreeSum {
     public List<List<Integer>> threeSum (int[] nums){
         List<List<Integer>> ret = new ArrayList<>();
