@@ -18,7 +18,7 @@ public class IsValidSudoku {
 
     public boolean isValidSudoku(final char[][] board) {
         // init data
-        Map<Integer, Integer> [] rows = new HashMap[9];
+        Map<Integer, Integer> [] rows = new HashMap [9];
         Map<Integer, Integer> [] columns = new HashMap[9];
         Map<Integer, Integer> [] boxes = new HashMap[9];
         for (int i = 0; i < 9; i++) {
